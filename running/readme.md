@@ -5,16 +5,19 @@ cd knowledge_graph
 ```
 2. Install Language Model:  
 Open other termianl:  
-Install Ollama 
+Install Ollama  
 ```
 curl -fsSL https://ollama.com/install.sh | sh
 ```
-Run ```ollama run zephyr```  
+Run  
+```
+ollama run zephyr
+```
 3. Set up virtual environments:  
-Back to original terminal, run:
+Back to original terminal, run:  
 ```
 python -m venv myenv
-```   
+```
 Activate: 
 ```
 source myenv/bin/activate
@@ -23,6 +26,7 @@ source myenv/bin/activate
 ```
 pip install -r requirements.txt
 ```
-5. Runing:
+5. Runing:  
+```
 papermill extract_graph.ipynb output_notebook.ipynb
-
+```
