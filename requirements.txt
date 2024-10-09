@@ -1,0 +1,11 @@
+pandas
+numpy
+langchain
+langchain-community
+tqdm
+unstructured
+yachalk
+networkx
+seaborn
+pyvis
+
